@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Learning at KCGI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="dot" />
+
+  <!-- ** CSS Plugins Needed for the Project ** -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!--Favicon-->
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="assets/style.css" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="banner overlay bg-cover" data-background="images/banner.jpg">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <!-- ... Navbar content here ... -->
+    </nav>
+    <!-- banner -->
+    <div class="container section">
+      <div class="row">
+        <div class="col-lg-8 text-center mx-auto">
+          <h1 class="text-white mb-3">Online Learning Platform - KCGI</h1>
+          <p class="text-white mb-4">Explore the Online Learning Platform - Zoom</p>
+          <div class="position-relative">
+            <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
+            <i class="ti-search search-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /banner -->
+  </header>
+  <!-- /header -->
+
+  <!-- learning content -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content mb-5">
+            <h4>Zoom - The Online Learning Platform</h4>
+            <p>Zoom is a popular video conferencing platform that has been widely used in the field of education, especially during the COVID-19 pandemic when remote learning became more prevalent. Zoom offers several features that can help students with their studies:</p>
+            <img src="https://static.wixstatic.com/media/f64e11_e0ebf4cab2024402a923bd19dbfd334b~mv2.jpeg/v1/fill/w_600,h_274,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f64e11_e0ebf4cab2024402a923bd19dbfd334b~mv2.jpeg" alt="Orientation Information" class="img-fluid mb-4">
+
+            <ul>
+              <li><strong>Virtual Classroom:</strong> Zoom provides a virtual classroom environment where students and teachers can interact in real-time through video and audio communication. This allows for live lectures, discussions, and Q&A sessions.</li>
+              <li><strong>Screen Sharing:</strong> Teachers can share their screens to present slides, documents, or multimedia content, making it easier for students to follow the lesson.</li>
+              <li><strong>Recording Sessions:</strong> Zoom allows sessions to be recorded, which is beneficial for students who might miss a class or want to review the material later. It also helps in exam preparation and revision.</li>
+              <li><strong>Breakout Rooms:</strong> Instructors can create breakout rooms, dividing the class into smaller groups for collaborative activities or discussions. This feature encourages student engagement and participation.</li>
+              <li><strong>Chat and Messaging:</strong> Zoom has a chat function that enables students to ask questions or make comments without interrupting the class. They can also privately message the instructor for clarification.</li>
+              <li><strong>Collaboration Tools:</strong> Zoom integrates with various collaboration tools, such as Google Drive and Microsoft OneDrive, allowing students to share files and work on group projects more efficiently.</li>
+              <li><strong>Accessibility:</strong> Zoom provides closed captioning and screen reader support, making it more accessible for students with hearing or visual impairments.</li>
+              <li><strong>Guest Speakers and Experts:</strong> With Zoom, it becomes easier to invite guest speakers or subject matter experts from remote locations, enriching the learning experience.</li>
+              <li><strong>Office Hours:</strong> Students can schedule one-on-one virtual meetings with instructors during office hours to seek additional help and clarifications.</li>
+              <li><strong>Flexibility and Convenience:</strong> Zoom allows students to attend classes from any location with internet access, providing flexibility for those with busy schedules or living in different time zones.</li>
+              <li><strong>Webinars and Workshops:</strong> Educational institutions can host webinars and workshops on Zoom to cover specialized topics or to engage with a broader audience beyond regular classes.</li>
+            </ul>
+            <p>While Zoom offers several benefits for students, it is essential for educational institutions to implement proper guidelines and security measures to ensure a safe and productive learning environment. Additionally, the effectiveness of online learning through Zoom may vary depending on factors like the quality of internet connectivity and the students' level of self-discipline and motivation in managing their studies online.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- call to action -->
+  <section class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="section-title text-center mb-4">Contact Us</h2>
+                <form id="contact-form" method="post" action="sendmail.php" class="contact-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- /call to action -->
+
+
+  <!-- /footer -->
+
+  <!-- ** JS Plugins Needed for the Project ** -->
+  <!-- jquiry -->
+  <script src="plugins/jquery/jquery-1.12.4.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- match-height JS -->
+  <script src="plugins/match-height/jquery.matchHeight-min.js"></script>
+  <!-- Main Script -->
+  <script src="assets/script.js"></script>
+</body>
+
+</html>
